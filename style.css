@@ -1,0 +1,61 @@
+
+h1{
+    text-align: center;
+}
+<style>
+    /* Center alignment for the h1 element */
+    h1 {
+        text-align: center;
+        color: green;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+
+        /* Style for form section */
+        section {
+            background-color:lightgray;
+            margin: 0 auto; /* Center the section */
+            width: 700px;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        /* Style for form labels */
+        label {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom:1px; /* Increase space below each label */
+            display: inline-block;
+            padding-bottom: 1%;
+        }
+
+        /* Style for form input fields */
+        input[type="text"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        /* Style for form buttons */
+        input[type="reset"],
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            background-color:black
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        input[type="reset"]:hover,
+        input[type="submit"]:hover {
+            background-color: lightcoral;
+        }
+    </style>
